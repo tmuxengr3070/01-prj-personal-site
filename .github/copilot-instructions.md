@@ -73,3 +73,4 @@ Add a "Back to Top" button that appears when the user scrolls down the page. Whe
 ## Prompt 21
 Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.
 
+##

@@ -220,9 +220,10 @@ body {
   transition: background 0.2s, color 0.2s;
 }
 
+/* Hover effect for main nav bar links */
 .main-nav a:hover {
-  background: #7f00ff;
-  color: #fff;
+  background: #fff;
+  color: #7f00ff;
 }
 
 /* Bottom Navigation Bar Styles */
@@ -258,9 +259,10 @@ body {
   transition: background 0.2s, color 0.2s;
 }
 
+/* Hover effect for bottom nav bar links */
 .bottom-nav a:hover {
-  background: #7f00ff;
-  color: #fff;
+  background: #fff;
+  color: #7f00ff;
 }
 
 /* Footer styles */
@@ -299,6 +301,11 @@ body {
   transform: scale(1.15) rotate(-6deg);
 }
 
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Responsive: Make sure it looks good on small screens */
 @media (max-width: 600px) {
   .bio, .skills, .projects {
@@ -307,7 +314,19 @@ body {
   }
 }
 
-/* Responsive: stack skills vertically on small screens */
+/* Responsive: stack hero image and text vertically on small screens */
+@media (max-width: 700px) {
+  .hero-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  .hero-img {
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive: stack skills li vertically on small screens */
 @media (max-width: 700px) {
   .skills ul {
     flex-direction: column;
@@ -315,11 +334,26 @@ body {
   }
   .skills li {
     min-width: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Responsive: stack main nav links vertically on small screens */
+@media (max-width: 700px) {
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .main-nav a {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
 /* Responsive: stack bottom nav links vertically on small screens */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .bottom-nav ul {
     flex-direction: column;
     gap: 0;
@@ -327,5 +361,13 @@ body {
   .bottom-nav a {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+/* Responsive: footer icons stack and center on small screens */
+@media (max-width: 700px) {
+  .footer-icons {
+    flex-direction: column;
+    gap: 18px;
   }
 }
