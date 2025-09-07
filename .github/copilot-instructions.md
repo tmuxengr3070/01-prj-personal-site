@@ -40,3 +40,8 @@ Center align the h2, h3 and p tags in the class="projects" section. Add a border
 ## prompt 10
 Make the h1 font color white in the hero-content class. 
 
+## prompt 11
+add a sleek diagonal poping violet, black and white color gradient to the body tag.
+
+## Prompt 12
+Add a main nav bar below the hero section with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links.

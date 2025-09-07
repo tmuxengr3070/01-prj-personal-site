@@ -5,9 +5,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fafbfc;
-  color: #222
- 
+  /* Sleek diagonal popping violet, black and white gradient */
+  background: linear-gradient(135deg, #e4d0f8 0%, #000 60%, #fff 100%);
+  color: #222;
 }
 
 /* Style for the hero section */
@@ -187,6 +187,42 @@ body {
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+/* Main Navigation Bar Styles */
+.main-nav {
+  background: rgba(0,0,0,0.8);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.main-nav a:hover {
+  background: #7f00ff;
+  color: #fff;
 }
 
 /* Responsive: Make sure it looks good on small screens */
