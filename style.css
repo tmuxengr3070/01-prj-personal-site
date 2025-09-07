@@ -267,45 +267,6 @@ body {
   color: #7f00ff;
 }
 
-/* Bottom Navigation Bar Styles */
-.bottom-nav {
-  background: rgba(0,0,0,0.85);
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  position: relative;
-  width: 100%;
-}
-
-.bottom-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-.bottom-nav li {
-  display: inline-block;
-}
-
-.bottom-nav a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.0em;
-  padding: 5px 10px;
-  border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
-}
-
-/* Hover effect for bottom nav bar links */
-.bottom-nav a:hover {
-  background: #fff;
-  color: #7f00ff;
-}
-
 /* Footer styles */
 .footer {
   background: rgba(0,0,0,0.85);

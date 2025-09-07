@@ -71,16 +71,13 @@ Add a smooth scrolling effect when clicking on the nav bar links to navigate to 
 Add a "Back to Top" button that appears when the user scrolls down the page. When clicked, it smoothly scrolls the user back to the top of the page.
 
 ## Prompt 21
-Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.
-
-## Prompt 22
 Add thumbnail size img petquest.jpg, invisimug.jpg, myarttoolbox.jpg, wiredandweird.jpg below the p tag,, class="project-carrd" centered and horizontal. Add padding to each img and p tag below for short description. 
 
-## Prompt 23
+## Prompt 22
 Change the h2 tag font color to a dark and vibrant complimentary color to match the web page background and gradient colors. 
 
-## Prompt 24
+## Prompt 23
 Remove the border from the class projects p tag.
 
-## Prompt 25
-Move the .bottom-nav class up from the bottom of the page slightly.
+## Prompt 24
+Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout and centering with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.

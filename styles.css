@@ -1,0 +1,44 @@
+/* ...existing code... */
+
+/* Bottom Navigation Bar Styles */
+.bottom-nav {
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+  align-items: center;
+  gap: 2rem; /* Space between links */
+  background: rgba(30, 30, 30, 0.95); /* Slightly transparent dark background */
+  padding: 1rem 0;
+  position: relative;
+  z-index: 10;
+}
+
+.bottom-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Hover effect for bottom nav links */
+.bottom-nav a:hover {
+  background: #8f2fff; /* Violet pop */
+  color: #fff;
+}
+
+/* Responsive: stack links vertically on small screens */
+@media (max-width: 600px) {
+  .bottom-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+  .bottom-nav a {
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+/* ...existing code... */
