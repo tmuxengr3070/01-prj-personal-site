@@ -73,4 +73,5 @@ Add a "Back to Top" button that appears when the user scrolls down the page. Whe
 ## Prompt 21
 Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.
 
-##
+## Prompt 22
+Add thumbnail size img petquest.jpg, invisimug.jpg, myarttoolbox.jpg, wiredandweird.jpg below the p tag,, class="project-carrd" centered and horizontal. Add padding to each img and p tag below for short description. 

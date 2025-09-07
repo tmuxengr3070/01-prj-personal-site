@@ -189,6 +189,42 @@ body {
   margin-bottom: 8px;
 }
 
+/* Thumbnails row in project card */
+.project-thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+/* Each thumbnail and its label */
+.project-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Thumbnail image style */
+.project-thumb img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Padding for the label below each thumbnail */
+.project-thumb p {
+  margin: 8px 0 0 0;
+  padding: 4px 0 0 0;
+  font-size: 1em;
+  text-align: center;
+}
+
 /* Main Navigation Bar Styles */
 .main-nav {
   background: rgba(0,0,0,0.8);
@@ -369,5 +405,14 @@ html {
   .footer-icons {
     flex-direction: column;
     gap: 18px;
+  }
+}
+
+/* Responsive: stack thumbnails vertically on small screens */
+@media (max-width: 600px) {
+  .project-thumbnails {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
   }
 }
