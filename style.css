@@ -29,12 +29,12 @@ body {
   gap: 20px;
 }
 
-/* Style for the hero image */
+/* Style for the hero image - now 200px by 200px */
 .hero-img {
-  width: 120px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  /* Optional: add a border or shadow for style */
+  object-fit: cover;
 }
 
 .hero h1 {
@@ -61,6 +61,12 @@ body {
   margin-top: 0;
 }
 
+/* Center align the h2 and p tags in the bio section */
+.bio h2,
+.bio p {
+  text-align: center;
+}
+
 /* Style for the skills section */
 .skills {
   background: #f5f7fa;
@@ -71,13 +77,59 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
 }
 
+/* Center align the h2 and ul tags in the skills section */
+.skills h2,
 .skills ul {
-  list-style-type: disc;
-  padding-left: 20px;
+  text-align: center;
 }
 
+/* Remove bullet points and center the ul */
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* space between skill items */
+}
+
+/* Style each skill li horizontally, with background, padding, and margin */
 .skills li {
-  margin-bottom: 8px;
+  background: #f0f0f0;
+  padding: 20px;
+  margin: 12px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* stack skill name and icon vertically */
+  align-items: center;
+  min-width: 180px;
+}
+
+/* Style for the skill icons, large size */
+.skill-icon img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 12px;
+  background: #1a237e; /* dark blue for HTML, overridden below for others */
+  color: #fff;
+  object-fit: contain;
+}
+
+/* Specific background for HTML icon */
+.html-icon img {
+  background: #1a237e;
+  color: #fff;
+}
+
+/* Optional: different backgrounds for CSS and JS icons */
+.css-icon img {
+  background: #1565c0;
+  color: #fff;
+}
+.js-icon img {
+  background: #f7df1e;
+  color: #222;
 }
 
 /* Style for the projects section */
@@ -92,6 +144,22 @@ body {
 
 .projects h2 {
   margin-top: 0;
+}
+
+/* Center align the h2, h3, and p tags in the projects section */
+.projects h2,
+.projects h3,
+.projects p {
+  text-align: center;
+}
+
+/* Add border and padding to the p tag in the projects section */
+.projects p {
+  border: 2px solid #b3c7f7;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f8faff;
+  margin: 16px 0;
 }
 
 /* Style for each project card */
@@ -118,5 +186,16 @@ body {
   .bio, .skills, .projects {
     padding: 20px 8px;
     max-width: 95%;
+  }
+}
+
+/* Responsive: stack skills vertically on small screens */
+@media (max-width: 700px) {
+  .skills ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .skills li {
+    min-width: 0;
   }
 }

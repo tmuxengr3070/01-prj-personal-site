@@ -12,3 +12,27 @@ I'm designing a personal website to showcase the portfolio projects I am going t
 Follow best practices for a clean, modern design. Reference the page layouts from the following links; https://squareme.si/en/, https://www.iamethanward.com/, https://www.flo-design.eu/.
 
 ## Prompt 2
+Add an img (Anthony-McMorris.jpg) to the left of the <h1> in the .hero section using a simple layout. Use a wrapper <div> to keep the image and text together, and add comments for clarity.
+
+## Prompt 3
+Relocate img Anthony-McMorris.jpg to the left of h1. Center all the text and img within the class="hero" section.
+
+## Prompt 4
+Increase the size of img Anthony-McMorris.jpg to 200px by 200px. Center all the text and img within the class="hero" section.
+
+## Prompt 5
+Center align the h2 and p tags in the class="bio" section.
+
+## Prompt 6
+Center align the h2 and ul tags in the class="skills" section. Remove the bullet points from the ul list. Add html, css and javascript icons to the right of each skill in the ul list. Use the following icons:
+- HTML: https://cdn-icons-png.flaticon.com/512/732/732212 with darkblue background and white text.
+
+## Prompt 7
+Align each li items in the class="skills" section horizontal and give them a light grey background, padding and margin. Relocate each icon below each corresponding skill in the ul list and increase the size of each icon to 150px by 150px.
+
+## Promt 8
+Increase the h2 and ul li items size in the class="skills" section. Center align the icons below each corresponding skill in the ul list and increase the size of each icon to 200px by 200px. Use icons from website as follows:
+- HTML: https://cdn-icons-png.flaticon.com/512/732/732212 with darkblue background and white text.
+
+## Prompt 9
+Center align the h2, h3 and p tags in the class="projects" section. Add a border and padding to the p tag in the class="projects" section.
