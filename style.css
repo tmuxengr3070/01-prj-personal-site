@@ -274,7 +274,7 @@ body {
 .footer-icons {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -284,8 +284,8 @@ body {
 }
 
 .footer-icons img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   filter: grayscale(30%);
   border-radius: 8px;
   background: #fff;
