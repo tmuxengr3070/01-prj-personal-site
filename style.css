@@ -225,6 +225,42 @@ body {
   color: #fff;
 }
 
+/* Footer styles */
+.footer {
+  background: rgba(0,0,0,0.85);
+  padding: 24px 0 18px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-icons a {
+  display: inline-block;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.footer-icons img {
+  width: 40px;
+  height: 40px;
+  filter: grayscale(30%);
+  border-radius: 8px;
+  background: #fff;
+  padding: 6px;
+  transition: filter 0.2s, background 0.2s, transform 0.2s;
+}
+
+.footer-icons a:hover img {
+  filter: none;
+  background: #7f00ff;
+  transform: scale(1.15) rotate(-6deg);
+}
+
 /* Responsive: Make sure it looks good on small screens */
 @media (max-width: 600px) {
   .bio, .skills, .projects {

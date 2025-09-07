@@ -45,3 +45,6 @@ add a sleek diagonal poping violet, black and white color gradient to the body t
 
 ## Prompt 12
 Add a main nav bar below the hero section with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links.
+
+## Prompt 13
+Add a bottom footer with social media icons and links to GitHub, LinkedIn and Twitter. Use a horizontal layout with spacing between each icon. Add hover effects to the icons.
