@@ -82,3 +82,5 @@ Change the h2 tag font color to a dark and vibrant complimentary color to match 
 ## Prompt 24
 Remove the border from the class projects p tag.
 
+## Prompt 25
+Move the .bottom-nav class up from the bottom of the page slightly.
