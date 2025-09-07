@@ -52,7 +52,7 @@ body {
 
 .hero p {
   font-size: 1.2em;
-  color: #555;
+  color: #acaaaa;
 }
 
 /* Style for the bio section */
@@ -340,6 +340,11 @@ body {
 /* Enable smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
+}
+
+/* h2 tag font color: dark and vibrant complimentary color (deep violet) */
+h2 {
+  color: #4b006e; /* deep, vibrant violet */
 }
 
 /* Responsive: Make sure it looks good on small screens */

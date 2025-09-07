@@ -75,3 +75,6 @@ Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, 
 
 ## Prompt 22
 Add thumbnail size img petquest.jpg, invisimug.jpg, myarttoolbox.jpg, wiredandweird.jpg below the p tag,, class="project-carrd" centered and horizontal. Add padding to each img and p tag below for short description. 
+
+## Prompt 23
+Change the h2 tag font color to a dark and vibrant complimentary color to match the web page background and gradient colors. 
