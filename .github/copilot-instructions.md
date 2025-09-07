@@ -48,3 +48,27 @@ Add a main nav bar below the hero section with links to each section of the page
 
 ## Prompt 13
 Add a bottom footer with social media icons and links to GitHub, LinkedIn and Twitter. Use a horizontal layout with spacing between each icon. Add hover effects to the icons.
+
+## Prompt 14
+Add the X icon and to the right of the LinkedIn icon to replace the Twitter icon.
+
+## Prompt 15
+Make the website mobile responsive. Stack the img and h1 in the hero section vertically on smaller screens. Stack the li items in the skills section vertically on smaller screens. Ensure the nav bar and footer are also responsive on smaller screens.
+
+## Prompt 16
+Add a hover effect to the project p tag in the projects section that changes the background color and text color.
+
+## Prompt 17
+Add a hover effect to the nav bar links that changes the background color and text color.
+
+## Prompt 18
+Add a hover effect to the footer social media icons that changes the background color and icon color.
+
+## Prompt 19
+Add a smooth scrolling effect when clicking on the nav bar links to navigate to each section of the page.
+
+## Prompt 20
+Add a "Back to Top" button that appears when the user scrolls down the page. When clicked, it smoothly scrolls the user back to the top of the page.
+
+## Prompt 21
+Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.

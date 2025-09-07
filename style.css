@@ -225,6 +225,44 @@ body {
   color: #fff;
 }
 
+/* Bottom Navigation Bar Styles */
+.bottom-nav {
+  background: rgba(0,0,0,0.85);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.bottom-nav li {
+  display: inline-block;
+}
+
+.bottom-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.bottom-nav a:hover {
+  background: #7f00ff;
+  color: #fff;
+}
+
 /* Footer styles */
 .footer {
   background: rgba(0,0,0,0.85);
@@ -277,5 +315,17 @@ body {
   }
   .skills li {
     min-width: 0;
+  }
+}
+
+/* Responsive: stack bottom nav links vertically on small screens */
+@media (max-width: 600px) {
+  .bottom-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .bottom-nav a {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
