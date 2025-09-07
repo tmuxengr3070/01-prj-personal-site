@@ -6,19 +6,22 @@ body {
   margin: 0;
   padding: 0;
   background: #fafbfc;
-  color: #222;
+  color: #222
+ 
 }
 
 /* Style for the hero section */
 .hero {
-  background: #e3eafc;
+  background: #000000;
   text-align: center;
   padding: 40px 20px;
+  
 }
 
 /* Center the hero section content */
 .hero {
   text-align: center;
+
 }
 
 /* Layout for hero content: image on the left, text on the right, centered */
@@ -27,6 +30,11 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+/* Make h1 font color white in the hero-content class */
+.hero-content h1 {
+  color: #fff;
 }
 
 /* Style for the hero image - now 200px by 200px */
