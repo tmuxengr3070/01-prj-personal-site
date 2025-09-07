@@ -273,11 +273,8 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  position: fixed;
-  left: 0;
-  right: 0;
-  /* Move the bottom nav up slightly from the bottom of the page */
-  bottom: 40px; /* Adjust this value as needed */
+  position: relative;
+  width: 100%;
 }
 
 .bottom-nav ul {
