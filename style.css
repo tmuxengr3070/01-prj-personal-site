@@ -16,6 +16,27 @@ body {
   padding: 40px 20px;
 }
 
+/* Center the hero section content */
+.hero {
+  text-align: center;
+}
+
+/* Layout for hero content: image on the left, text on the right, centered */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Style for the hero image */
+.hero-img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  /* Optional: add a border or shadow for style */
+}
+
 .hero h1 {
   margin-bottom: 10px;
   font-size: 2.5em;
