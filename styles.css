@@ -1,44 +1,428 @@
-/* ...existing code... */
+/* Add you CSS here */
+
+/* Set a simple, clean font for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Sleek diagonal popping violet, black and white gradient */
+  background: linear-gradient(135deg, #e4d0f8 0%, #000 60%, #fff 100%);
+  color: #222;
+}
+
+/* Style for the hero section */
+.hero {
+  background: #000000;
+  text-align: center;
+  padding: 40px 20px;
+  
+}
+
+/* Center the hero section content */
+.hero {
+  text-align: center;
+
+}
+
+/* Layout for hero content: image on the left, text on the right, centered */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Make h1 font color white in the hero-content class */
+.hero-content h1 {
+  color: #fff;
+}
+
+/* Style for the hero image - now 200px by 200px */
+.hero-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #acaaaa;
+}
+
+/* Style for the bio section */
+.bio {
+  background: #fff;
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 30px auto 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.bio h2 {
+  margin-top: 0;
+}
+
+/* Center align the h2 and p tags in the bio section */
+.bio h2,
+.bio p {
+  text-align: center;
+}
+
+/* Style for the skills section */
+.skills {
+  background: #f5f7fa;
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 30px auto 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+/* Center align the h2 and ul tags in the skills section */
+.skills h2,
+.skills ul {
+  text-align: center;
+}
+
+/* Remove bullet points and center the ul */
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* space between skill items */
+}
+
+/* Style each skill li horizontally, with background, padding, and margin */
+.skills li {
+  background: #f0f0f0;
+  padding: 20px;
+  margin: 12px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* stack skill name and icon vertically */
+  align-items: center;
+  min-width: 180px;
+}
+
+/* Style for the skill icons, large size */
+.skill-icon img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 12px;
+  background: #1a237e; /* dark blue for HTML, overridden below for others */
+  color: #fff;
+  object-fit: contain;
+}
+
+/* Specific background for HTML icon */
+.html-icon img {
+  background: #1a237e;
+  color: #fff;
+}
+
+/* Optional: different backgrounds for CSS and JS icons */
+.css-icon img {
+  background: #1565c0;
+  color: #fff;
+}
+.js-icon img {
+  background: #f7df1e;
+  color: #222;
+}
+
+/* Style for the projects section */
+.projects {
+  background: #fff;
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 30px auto 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.projects h2 {
+  margin-top: 0;
+}
+
+/* Center align the h2, h3, and p tags in the projects section */
+.projects h2,
+.projects h3,
+.projects p {
+  text-align: center;
+}
+
+/* Add border and padding to the p tag in the projects section */
+.projects p {
+  /* border: 2px solid #b3c7f7; */ /* border removed */
+  padding: 16px;
+  border-radius: 8px;
+  background: #f8faff;
+  margin: 16px 0;
+}
+
+/* Style for each project card */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-card {
+  background: #f0f4fa;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Thumbnails row in project card */
+.project-thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+/* Each thumbnail and its label */
+.project-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Thumbnail image style */
+.project-thumb img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Padding for the label below each thumbnail, improved font and color */
+.project-thumb p {
+  margin: 8px 0 0 0;
+  padding: 4px 0 0 0;
+  font-size: 1.0em;
+  text-align: center;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  color: #201f20; /* vibrant violet to match theme */
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  /* border removed, only font and color set */
+}
+
+/* Main Navigation Bar Styles */
+.main-nav {
+  background: rgba(0,0,0,0.8);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Hover effect for main nav bar links */
+.main-nav a:hover {
+  background: #fff;
+  color: #7f00ff;
+}
 
 /* Bottom Navigation Bar Styles */
 .bottom-nav {
-  display: flex;
-  justify-content: center; /* Center the links horizontally */
-  align-items: center;
-  gap: 2rem; /* Space between links */
-  background: rgba(30, 30, 30, 0.95); /* Slightly transparent dark background */
-  padding: 1rem 0;
+  background: rgba(0,0,0,0.85);
+  padding: 0;
+  margin: 0;
+  text-align: center;
   position: relative;
-  z-index: 10;
+  width: 100%;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.bottom-nav li {
+  display: inline-block;
 }
 
 .bottom-nav a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
-  font-size: 0.5em;
-  padding: 0.5rem 1.2rem;
+  font-size: 1.0em;
+  padding: 5px 10px;
   border-radius: 6px;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.2s, color 0.2s;
 }
 
-/* Hover effect for bottom nav links */
+/* Hover effect for bottom nav bar links */
 .bottom-nav a:hover {
-  background: #8f2fff; /* Violet pop */
-  color: #fff;
+  background: #fff;
+  color: #7f00ff;
 }
 
-/* Responsive: stack links vertically on small screens */
+/* Footer styles */
+.footer {
+  background: rgba(0,0,0,0.85);
+  padding: 24px 0 18px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-icons a {
+  display: inline-block;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+  filter: grayscale(30%);
+  border-radius: 8px;
+  background: #fff;
+  padding: 6px;
+  transition: filter 0.2s, background 0.2s, transform 0.2s;
+}
+
+.footer-icons a:hover img {
+  filter: none;
+  background: #7f00ff;
+  transform: scale(1.15) rotate(-6deg);
+}
+
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* h2 tag font color: dark and vibrant complimentary color (deep violet) */
+h2 {
+  color: #4b006e; /* deep, vibrant violet */
+}
+
+/* Responsive: Make sure it looks good on small screens */
 @media (max-width: 600px) {
-  .bottom-nav {
+  .bio, .skills, .projects {
+    padding: 20px 8px;
+    max-width: 95%;
+  }
+}
+
+/* Responsive: stack hero image and text vertically on small screens */
+@media (max-width: 700px) {
+  .hero-content {
     flex-direction: column;
-    gap: 0.5rem;
-    padding: 0.5rem 0;
+    gap: 16px;
+    text-align: center;
+  }
+  .hero-img {
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive: stack skills li vertically on small screens */
+@media (max-width: 700px) {
+  .skills ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .skills li {
+    min-width: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Responsive: stack main nav links vertically on small screens */
+@media (max-width: 700px) {
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .main-nav a {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Responsive: stack bottom nav links vertically on small screens */
+@media (max-width: 700px) {
+  .bottom-nav ul {
+    flex-direction: column;
+    gap: 0;
   }
   .bottom-nav a {
-    width: 90%;
-    text-align: center;
-    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
-/* ...existing code... */
+/* Responsive: footer icons stack and center on small screens */
+@media (max-width: 700px) {
+  .footer-icons {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+/* Responsive: stack thumbnails vertically on small screens */
+@media (max-width: 600px) {
+  .project-thumbnails {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}
