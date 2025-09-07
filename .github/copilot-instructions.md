@@ -12,4 +12,3 @@ I'm designing a personal website to showcase the portfolio projects I am going t
 Follow best practices for a clean, modern design. Reference the page layouts from the following links; https://squareme.si/en/, https://www.iamethanward.com/, https://www.flo-design.eu/.
 
 ## Prompt 2
-Add simple CSS to display the image and text side by side in the hero section. Style the image to be round and appropriately sized. Add comments for learning.
