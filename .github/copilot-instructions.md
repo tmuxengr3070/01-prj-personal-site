@@ -78,3 +78,7 @@ Add thumbnail size img petquest.jpg, invisimug.jpg, myarttoolbox.jpg, wiredandwe
 
 ## Prompt 23
 Change the h2 tag font color to a dark and vibrant complimentary color to match the web page background and gradient colors. 
+
+## Prompt 24
+Remove the border from the class projects p tag.
+
