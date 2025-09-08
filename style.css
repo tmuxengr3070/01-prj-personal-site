@@ -43,8 +43,10 @@
 }
 
 .bio h2 {
-  font-size: 2rem;
+  font-size: 2.4rem; /* Increased font size */
   margin-bottom: 10px;
+  color: #8f00ff; /* Vibrant violet color */
+  text-align: center;
 }
 
 .bio p {
@@ -68,8 +70,9 @@
 
 /* Center align h2 in skills section */
 .skills h2 {
-  font-size: 2rem;
+  font-size: 2.4rem; /* Increased font size */
   margin-bottom: 20px;
+  color: #8f00ff; /* Vibrant violet color */
   text-align: center;
 }
 
@@ -122,8 +125,10 @@
 }
 
 .projects h2 {
-  font-size: 2rem;
+  font-size: 2.9rem; /* Increased font size */
   margin-bottom: 20px;
+  color: #9052be; /* Vibrant violet color */
+  text-align: center;
 }
 
 .project-list {

@@ -103,3 +103,6 @@ The font size of the h1 and p tags in the .hero-content section has been increas
 
 ## Prompt 31
 Center align horizontally and vertically each img in the thumb-item class and each p tag below each img. 
+
+## Prompt 32
+Increase the font size of each h2 tag in the bio, skills and projects sections for better visibility and change the font color to a more vibrant color to match the web page background and gradient colors.
