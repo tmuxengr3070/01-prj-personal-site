@@ -100,3 +100,6 @@ Change the background color of the hero section to a dark grey color for a moder
 
 ## Prompt 30
 The font size of the h1 and p tags in the .hero-content section has been increased for better visibility.
+
+## Prompt 31
+Center align horizontally and vertically each img in the thumb-item class and each p tag below each img. 
