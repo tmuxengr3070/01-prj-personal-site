@@ -85,3 +85,12 @@ Remove the border from the class projects p tag.
 
 ## Prompt 25
 Horizontal align the thumbnail img InvisiMug.JPG in the class projects section and center it below the project p tag. 
+
+## Prompt 26
+Decrease the size of the background in the class skills section to 600px by 400px.
+
+## Prompt 27
+Add a white colored background to the icons of the skills section with rounded corners to 675px by 225px.
+
+## Prompt 28
+Add a light black, and white color gradient to the main-nav and bottom-nav background for a modern look.
