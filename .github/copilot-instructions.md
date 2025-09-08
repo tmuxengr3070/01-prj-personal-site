@@ -97,3 +97,6 @@ Add a light black, and white color gradient to the main-nav and bottom-nav backg
 
 ## Prompt 29  
 Change the background color of the hero section to a dark grey color for a modern look.
+
+## Prompt 30
+The font size of the h1 and p tags in the .hero-content section has been increased for better visibility.
