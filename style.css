@@ -45,12 +45,12 @@
 .bio h2 {
   font-size: 2.4rem; /* Increased font size */
   margin-bottom: 10px;
-  color: #8f00ff; /* Vibrant violet color */
+  color: #1b012e; /* Vibrant violet color */
   text-align: center;
 }
 
 .bio p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -72,7 +72,7 @@
 .skills h2 {
   font-size: 2.4rem; /* Increased font size */
   margin-bottom: 20px;
-  color: #8f00ff; /* Vibrant violet color */
+  color: #1b012e; /* Vibrant violet color */
   text-align: center;
 }
 
@@ -125,9 +125,9 @@
 }
 
 .projects h2 {
-  font-size: 2.9rem; /* Increased font size */
+  font-size: 2.3rem; /* Increased font size */
   margin-bottom: 20px;
-  color: #9052be; /* Vibrant violet color */
+  color: #1b012e; /* Vibrant violet color */
   text-align: center;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .project-card p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Thumbnails row in projects */
@@ -219,7 +219,7 @@
 .main-nav a {
   text-decoration: none;
   color: #222;
-  font-size: 1.1rem;
+  font-size: 1.3em;
   padding: 8px 16px;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
@@ -227,7 +227,7 @@
 
 /* Hover effect for nav links */
 .main-nav a:hover {
-  background: #8f00ff;
+  background: #3f3e3f;
   color: #fff;
 }
 
@@ -266,7 +266,7 @@
 
 /* Hover effect for bottom nav links */
 .bottom-nav a:hover {
-  background: #8f00ff;
+  background: #3f3e3f;
   color: #fff;
 }
 
