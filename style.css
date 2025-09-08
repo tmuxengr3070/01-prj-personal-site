@@ -1,0 +1,311 @@
+/* Hero Section */
+.hero {
+  background: #222;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Wrapper for image and text in hero section */
+.hero-content {
+  display: flex; /* Place image and text side by side */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Center the wrapper horizontally */
+  gap: 30px; /* Space between image and text */
+}
+
+/* Style for hero image */
+.hero-img {
+  width: 300px; /* Set image width */
+  height: 300px; /* Set image height */
+  object-fit: cover; /* Crop image to fit */
+  border-radius: 50%; /* Make image circular */
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Bio Section */
+.bio {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+  background: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Center align h2 in skills section */
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Center align ul in skills section and remove bullet points */
+.skills ul {
+  list-style: none;
+  display: flex; /* Align li items horizontally */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style each skill item */
+.skills li {
+  background: #f3f3f3; /* Light grey background */
+  padding: 20px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column; /* Stack text and icon vertically */
+  align-items: center;
+}
+
+/* Style for skill icons - increased size */
+.skill-icon {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  background: #1a237e; /* dark blue background */
+  border-radius: 12px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Projects Section */
+.projects {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #f0f0f0;
+  padding: 20px 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+}
+
+/* Thumbnails row in projects */
+.project-thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Each thumbnail and its label */
+.thumb-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+
+/* Thumbnail image style */
+.project-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 8px;
+}
+
+/* Padding for the label below each thumbnail */
+.thumb-item p {
+  margin: 0;
+  padding: 4px 0 0 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Main Navigation Bar */
+.main-nav {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.main-nav li {
+  /* No extra styles needed */
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Hover effect for nav links */
+.main-nav a:hover {
+  background: #8f00ff;
+  color: #fff;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+  background: #fff;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+  padding: 0;
+  margin-top: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.bottom-nav li {
+  /* No extra styles needed */
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Hover effect for bottom nav links */
+.bottom-nav a:hover {
+  background: #8f00ff;
+  color: #fff;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+}
+
+.footer-icon img {
+  width: 40px;
+  height: 40px;
+  transition: background 0.2s, filter 0.2s, border-radius 0.2s;
+  border-radius: 8px;
+  background: transparent;
+}
+
+/* Hover effect for footer icons */
+.footer-icon:hover img {
+  background: #8f00ff;
+  filter: brightness(2) invert(1);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  /* Stack hero image and text vertically */
+  .hero-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-img {
+    width: 200px;
+    height: 200px;
+  }
+  /* Stack skills vertically */
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-icon {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Responsive nav bar */
+@media (max-width: 600px) {
+  .main-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bottom-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Responsive footer */
+@media (max-width: 500px) {
+  .footer {
+    gap: 16px;
+    padding: 16px 0;
+  }
+  .footer-icon img {
+    width: 32px;
+    height: 32px;
+  }
+}
