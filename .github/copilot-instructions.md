@@ -94,3 +94,6 @@ Add a white colored background to the icons of the skills section with rounded c
 
 ## Prompt 28
 Add a light black, and white color gradient to the main-nav and bottom-nav background for a modern look.
+
+## Prompt 29  
+Change the background color of the hero section to a dark grey color for a modern look.

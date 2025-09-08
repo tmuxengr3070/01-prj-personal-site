@@ -16,15 +16,6 @@
   gap: 30px; /* Space between image and text */
 }
 
-/* Increase font size for h1 and p in hero-content */
-.hero-content h1 {
-  font-size: 2.8rem;
-}
-
-.hero-content p {
-  font-size: 1.4rem;
-}
-
 /* Style for hero image */
 .hero-img {
   width: 300px; /* Set image width */
