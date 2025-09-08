@@ -75,7 +75,7 @@ Add a "Back to Top" button that appears when the user scrolls down the page. Whe
 Add a bottom nav bar with links to each section of the page: Home, Bio, Skills, Projects. Use a horizontal layout with spacing between each link. Add hover effects to the links. Ensure the bottom nav bar is responsive on smaller screens. Add the bottom nav bar bbelow the footer.
 
 ## Prompt 22
-Add thumbnail size img PetQuest.jpg, invisimug.jpg, myarttoolbox.jpg, WiredandWeird.jpg below the p tag,, class="project-card" centered and horizontal. Add padding to each img and p tag below for short description.
+Add thumbnail size img PetQuest.jpg, InvisiMug.jpg, myarttoolbox.jpg, WiredandWeird.jpg below the p tag,, class="project-card" centered and horizontal. Add padding to each img and p tag below for short description.
 
 ## Prompt 23
 Change the h2 tag font color to a dark and vibrant complimentary color to match the web page background and gradient colors.

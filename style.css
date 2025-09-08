@@ -128,42 +128,6 @@
   font-size: 1rem;
 }
 
-/* Thumbnails row in projects */
-.project-thumbnails {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 24px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
-
-/* Each thumbnail and its label */
-.thumb-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px;
-}
-
-/* Thumbnail image style */
-.project-thumb {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  margin-bottom: 8px;
-}
-
-/* Padding for the label below each thumbnail */
-.thumb-item p {
-  margin: 0;
-  padding: 4px 0 0 0;
-  font-size: 0.95rem;
-  text-align: center;
-}
-
 /* Main Navigation Bar */
 .main-nav {
   background: #fff;
