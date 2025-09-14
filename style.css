@@ -105,6 +105,29 @@
   align-items: center;
 }
 
+/* Container for each skill and icon */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive: stack skills vertically on small screens */
+@media (max-width: 900px) {
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills li {
+    width: 90%;
+    margin: 12px 0;
+  }
+  .skill-item {
+    width: 100%;
+  }
+}
+
 /* Style for skill icons - white background, rounded corners, fixed size */
 .skill-icon {
   width: 150px;
@@ -301,49 +324,85 @@
   /* Stack hero image and text vertically */
   .hero-content {
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    text-align: center;
   }
   .hero-img {
-    width: 200px;
-    height: 200px;
+    margin-bottom: 16px;
+    margin-right: 0;
+    width: 220px;
+    height: 220px;
   }
   /* Stack skills vertically */
   .skills ul {
     flex-direction: column;
     align-items: center;
   }
-  .skill-icon {
-    width: 200px;
-    height: 200px;
+  .skills li {
+    width: 90%;
+    margin: 12px 0;
   }
-}
-
-/* Responsive nav bar */
-@media (max-width: 600px) {
-  .main-nav ul {
-    flex-direction: column;
-    gap: 10px;
+  .skill-item {
+    width: 100%;
   }
+  /* Responsive nav bars */
+  .main-nav ul,
   .bottom-nav ul {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 8px;
   }
-  /* Thumbnails stack on small screens */
-  .project-thumbnails {
+  .main-nav li,
+  .bottom-nav li {
+    margin: 8px 0;
+  }
+  /* Stack footer items */
+  .footer {
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
+  }
+  /* Stack project thumbnails */
+  .project-thumbnails,
+  .project-thumbnails.second-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .thumb-item {
+    width: 100%;
+  }
+  .project-thumb,
+  .thumb-img {
+    width: 90vw;
+    max-width: 220px;
+    height: auto;
   }
 }
 
-/* Responsive footer */
-@media (max-width: 500px) {
-  .footer {
-    gap: 16px;
-    padding: 16px 0;
+@media (max-width: 600px) {
+  .hero-img {
+    width: 140px;
+    height: 140px;
   }
-  .footer-icon img {
-    width: 32px;
-    height: 32px;
+  .skills li {
+    font-size: 1rem;
+  }
+  .skills h2,
+  .bio h2,
+  .projects h2 {
+    font-size: 1.3rem;
+  }
+  .main-nav ul,
+  .bottom-nav ul {
+    padding: 0;
+    gap: 4px;
+  }
+  .footer {
+    font-size: 0.9rem;
+  }
+  .project-thumb,
+  .thumb-img {
+    max-width: 120px;
   }
 }

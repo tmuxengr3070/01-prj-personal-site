@@ -106,3 +106,24 @@ Center align horizontally and vertically each img in the thumb-item class and ea
 
 ## Prompt 32
 Increase the font size of each h2 tag in the bio, skills and projects sections for better visibility and change the font color to a more vibrant color to match the web page background and gradient colors.
+
+## Prompt 33
+Add a second row of 4 thumbnail images AmericanAirllines.JPG, CraneWorks.JPG, Exclusive Furniture.JPG, Nationwide Movers.JPG below "project-thumbnails" with p tag below each thumbnail. Make all thumbnails and text centered and horizontal.
+
+## Prompt 34
+Add a hover effect to each thumbnail image that increases the size of the image slightly and adds a shadow around the image.
+
+## Prompt 35
+Add a subtle animation to the hero section that fades in the content when the page loads.
+
+## Prompt 36
+Add a subtle animation to the nav bar links that changes the color of the text when hovered over.
+
+## Prompt 37
+Add a subtle animation to the footer social media icons that changes the color of the icon when hovered over.
+
+## Prompt 38
+Ensure the entire website is responsive in large and smaller screens.
+
+## Prompt 39
+Add a container for to the ul for each li item in the skills section to make it easier to style each skill and icon together. Ensure the container is responsive on large and smaller screens.
