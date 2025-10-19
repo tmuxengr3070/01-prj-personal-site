@@ -6,3 +6,5 @@ Add inside of a container img myarttoolbox.JPG and Intel.JPG below the h2 tag We
 
 Center align each img horizontally with padding and add title text below each img also with padding. Ensure the page project.html and all elements are responsive on all devices.
 
+## Prompt 3
+Center align .web-projects h2 tag tite Web Projects above the .simple-projects-container. Aso center the p tag below the h2 tag and include appropriate padding. Ensure all elements and page are responsive to all devices. 
