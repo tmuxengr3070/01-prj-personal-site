@@ -11,3 +11,6 @@ Center align .web-projects h2 tag tite Web Projects above the .simple-projects-c
 
 ## Prompt 4
 Create one row of four .simple-thumb-item with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure a elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
+
+## Prompt 5
+Create a second row of four .simple-thumb-item with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure a elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
