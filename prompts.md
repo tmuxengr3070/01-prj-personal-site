@@ -10,7 +10,7 @@ Center align each img horizontally with padding and add title text below each im
 Center align .web-projects h2 tag tite Web Projects above the .simple-projects-container. Aso center the p tag below the h2 tag and include appropriate padding. Ensure all elements and page are responsive to all devices.
 
 ## Prompt 4
-Create one row of four .simple-thumb-item with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure a elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
+Create one row of four .simple-thumb-item with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure all elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
 
 ## Prompt 5
-Create a second row of four .simple-thumb-item with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure a elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
+Move the next four .simple-thumb-item starting from img/Intel_Check_In.JPG, img/Day_Ready_App.JPG, img/Crowd_Keeper_App.JPG and img/Pizza_App.JPG to a second row with each img src horizontally aligned and .simple-project-title below each img src. Add padding and ensure all elements and page are responsive to all devices. Decrease the size of each .simple-thumb-item to 130px by 130px. 
