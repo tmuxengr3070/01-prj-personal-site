@@ -111,11 +111,31 @@
       <!-- Design items will be added here -->
        <!-- First design project -->
       <div class="simple-thumb-item">
-        <img src="img/AmericanAirlines.JPG" alt="American Airlines Design" class="simple-project-thumb">
+        <img src="img/AmericanAirlines.JPG" alt="American Airlines Design" class="simple-project-thumb design-popup-trigger" data-image="img/AmericanAirlines.JPG" data-title="American Airlines Design">
         <p class="simple-project-title">American Airlines Design</p>
+      </div>
+      <div class="simple-thumb-item">
+        <img src="img/Exclusive Furniture.JPG" alt="Exclusive Furniture Design" class="simple-project-thumb design-popup-trigger" data-image="img/Exclusive Furniture.JPG" data-title="Exclusive Furniture Design">
+        <p class="simple-project-title">Exclusive Furniture Design</p>
+      </div>
+      <div class="simple-thumb-item">
+        <img src="img/CraneWorks.JPG" alt="CraneWorks Design" class="simple-project-thumb design-popup-trigger" data-image="img/CraneWorks.JPG" data-title="CraneWorks Design">
+        <p class="simple-project-title">CraneWorks Design</p>
       </div>
     </div>
   </section>
+
+  <!-- Popup Modal for Design Images -->
+  <div class="design-popup-modal" id="designPopup">
+    <div class="popup-content">
+      <!-- Close button -->
+      <span class="popup-close">&times;</span>
+      <!-- Large image display -->
+      <img src="" alt="Design Preview" class="popup-image" id="popupImage">
+      <!-- Title below image -->
+      <p class="popup-title" id="popupTitle"></p>
+    </div>
+  </div>
 
   <!-- Footer with social media icons -->
   <footer class="footer">
@@ -137,5 +157,7 @@
     </ul>
   </nav>
 
+  <!-- Add JavaScript for popup functionality -->
+  <script src="popup.js"></script>
 </body>
 </html>

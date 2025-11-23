@@ -421,6 +421,99 @@
   color: #222;
 }
 
+/* Popup Modal Styles */
+.design-popup-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.85); /* Black background with opacity */
+}
+
+/* Popup Content Container */
+.popup-content {
+  position: relative;
+  background-color: #fff;
+  margin: 5% auto; /* Center the popup */
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 90%; /* Responsive width */
+  width: 700px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Close Button */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #333;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.popup-close:hover {
+  color: #8f00ff; /* Purple color on hover */
+}
+
+/* Large Image in Popup */
+.popup-image {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Title in Popup */
+.popup-title {
+  font-size: 1.3rem;
+  color: #1b012e;
+  margin: 10px 0 0 0;
+}
+
+/* Make design thumbnails look clickable */
+.design-popup-trigger {
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Responsive Design for Popup */
+@media (max-width: 900px) {
+  /* ...existing code... */
+  .popup-content {
+    width: 95%;
+    padding: 20px;
+    margin: 10% auto;
+  }
+  
+  .popup-image {
+    max-width: 100%;
+  }
+  
+  .popup-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* ...existing code... */
+  .popup-close {
+    font-size: 28px;
+    right: 15px;
+  }
+  
+  .popup-title {
+    font-size: 1rem;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
   /* Stack hero image and text vertically */
