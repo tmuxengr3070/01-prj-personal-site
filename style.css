@@ -270,6 +270,40 @@
   word-break: break-word;
 }
 
+/* Web Designs Section - Center align title and description */
+.web-designs {
+  margin-top: 40px; /* Add spacing between sections */
+  padding: 20px;
+}
+
+.web-designs h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #1b012e;
+  margin-bottom: 12px;
+}
+
+.web-design-desc {
+  text-align: center;
+  padding-bottom: 16px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+/* Simple designs container - light gray background like projects */
+.simple-designs-container {
+  background: #f3f3f3; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0;
+  border-radius: 12px;
+  margin: 24px auto 0 auto;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+
 /* Main Navigation Bar */
 .main-nav {
   /* Light black and white gradient background */
@@ -458,6 +492,13 @@
     max-width: 200px;
     height: auto;
   }
+  /* Simple designs container responsive */
+  .simple-designs-container {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 95vw;
+    padding: 16px 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -484,5 +525,13 @@
   .project-thumb,
   .thumb-img {
     max-width: 120px;
+  }
+  .web-designs h2 {
+    font-size: 1.3rem;
+  }
+  
+  .web-design-desc {
+    font-size: 1rem;
+    padding: 0 12px 16px 12px;
   }
 }
