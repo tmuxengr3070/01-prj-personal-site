@@ -22,8 +22,10 @@ designThumbnails.forEach(function(thumbnail) {
     popupImage.src = imageSrc;
     popupTitle.textContent = imageTitle;
     
-    // Show the popup
+    // Show the popup with fade-in animation
     popup.style.display = 'block';
+    // Trigger reflow to restart animation
+    popup.offsetHeight;
   });
 });
 
