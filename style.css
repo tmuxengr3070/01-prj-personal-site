@@ -249,6 +249,16 @@
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   margin-bottom: 8px;
+  /* Add smooth transition for hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect: slightly increase size and add shadow */
+.simple-project-thumb:hover {
+  /* Scale up the image by 5% */
+  transform: scale(1.05);
+  /* Add a subtle shadow around the image */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Project title below each image */
