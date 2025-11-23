@@ -438,11 +438,11 @@
 .popup-content {
   position: relative;
   background-color: #fff;
-  margin: 5% auto; /* Center the popup */
-  padding: 30px;
+  margin: 8% auto; /* Center the popup with more top margin */
+  padding: 20px; /* Reduced padding */
   border-radius: 12px;
-  max-width: 90%; /* Responsive width */
-  width: 700px;
+  max-width: 85%; /* Reduced max width */
+  width: 500px; /* Reduced width from 700px to 500px */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
@@ -450,10 +450,10 @@
 /* Close Button */
 .popup-close {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 5px; /* Moved closer to top */
+  right: 15px; /* Moved closer to edge */
   color: #333;
-  font-size: 35px;
+  font-size: 30px; /* Slightly smaller */
   font-weight: bold;
   cursor: pointer;
   transition: color 0.2s;
@@ -466,17 +466,17 @@
 /* Large Image in Popup */
 .popup-image {
   width: 100%;
-  max-width: 650px;
+  max-width: 460px; /* Reduced from 650px */
   height: auto;
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 12px; /* Reduced spacing */
 }
 
 /* Title in Popup */
 .popup-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem; /* Slightly smaller font */
   color: #1b012e;
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0; /* Reduced margin */
 }
 
 /* Make design thumbnails look clickable */
@@ -488,9 +488,9 @@
 @media (max-width: 900px) {
   /* ...existing code... */
   .popup-content {
-    width: 95%;
-    padding: 20px;
-    margin: 10% auto;
+    width: 90%; /* Adjusted for mobile */
+    padding: 18px; /* Slightly reduced padding */
+    margin: 12% auto; /* More top margin on mobile */
   }
   
   .popup-image {
@@ -498,19 +498,24 @@
   }
   
   .popup-title {
-    font-size: 1.1rem;
+    font-size: 1.05rem; /* Slightly smaller on mobile */
   }
 }
 
 @media (max-width: 600px) {
   /* ...existing code... */
   .popup-close {
-    font-size: 28px;
-    right: 15px;
+    font-size: 26px; /* Smaller on small screens */
+    right: 12px;
   }
   
   .popup-title {
-    font-size: 1rem;
+    font-size: 0.95rem; /* Even smaller on small screens */
+  }
+  
+  .popup-content {
+    padding: 15px; /* More compact on small screens */
+    margin: 15% auto;
   }
 }
 
